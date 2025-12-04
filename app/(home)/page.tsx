@@ -29,6 +29,15 @@ export default function Home() {
             height={660}
           />
         </div>
+        
+          <Image
+            className="absolute right-60 top-45"
+            src="/abelha1.svg"
+            alt="Abelha"
+            width={264}
+            height={467}
+          />
+        
         <div
           className="absolute right-0 top-0 flex items-center"
         >
