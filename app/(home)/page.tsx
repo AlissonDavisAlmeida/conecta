@@ -17,7 +17,7 @@ export default function Home() {
           <MenuHome />
         </div>
         <div
-          className="absolute right-30 top-0 flex items-center"
+          className="absolute right-40 top-0 flex items-center"
         >
 
           <Image
@@ -46,9 +46,8 @@ export default function Home() {
             className="ml-8"
             src="/vector-home-right.svg"
             alt="Vector Right"
-
-            width={200}
-            height={288}
+            width={300}
+            height={600}
           />
         </div>
       </header>

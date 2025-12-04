@@ -3,7 +3,7 @@ import { Button } from "./Button"
 export const MenuHome = () => {
   return (
     <div
-      className="z-10 flex mr-20 gap-8"
+      className="z-10 flex mr-30 gap-8"
     >
       <Button
         className=""
