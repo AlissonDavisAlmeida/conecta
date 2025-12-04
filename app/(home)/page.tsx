@@ -1,3 +1,4 @@
+import { Button } from "@/components/Button";
 import { MenuHome } from "@/components/MenuHome";
 import Image from "next/image";
 
@@ -56,6 +57,21 @@ export default function Home() {
         >
           O conecta nasceu da escuta, do afeto e da vontade de transformar. Atuamos em favelas e comunidades levando educação digital, desenvolvimento emocional e experiências culturais.
         </h6>
+        <div
+          className="flex mt-10 gap-10"
+        >
+          <Button
+            variant="red"
+            className="w-[170px]"
+          >
+            Doe agora
+          </Button>
+          <Button
+            className="w-[263px]"
+          >
+            Quero ser voluntário
+          </Button>
+        </div>
       </div>
     </div>
   );
